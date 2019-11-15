@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  table_ID: 1
+  status: false
+
+two:
+  table_ID: 1
+  status: false

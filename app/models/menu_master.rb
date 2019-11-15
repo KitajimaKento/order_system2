@@ -1,0 +1,2 @@
+class MenuMaster < ApplicationRecord
+end

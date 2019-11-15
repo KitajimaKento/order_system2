@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Menu Masters</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Menu id</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Price tax not</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @menu_masters.each do |menu_master| %>
+      <tr>
+        <td><%= menu_master.menu_ID %></td>
+        <td><%= menu_master.name %></td>
+        <td><%= menu_master.price %></td>
+        <td><%= menu_master.price_tax_not %></td>
+        <td><%= link_to 'Show', menu_master %></td>
+        <td><%= link_to 'Edit', edit_menu_master_path(menu_master) %></td>
+        <td><%= link_to 'Destroy', menu_master, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Menu Master', new_menu_master_path %>

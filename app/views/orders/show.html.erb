@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Order id:</strong>
+  <%= @order.order_ID %>
+</p>
+
+<p>
+  <strong>Menu id:</strong>
+  <%= @order.menu_ID %>
+</p>
+
+<p>
+  <strong>Table id:</strong>
+  <%= @order.table_ID %>
+</p>
+
+<p>
+  <strong>Login id:</strong>
+  <%= @order.login_ID %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @order.total %>
+</p>
+
+<p>
+  <strong>Total tax not:</strong>
+  <%= @order.total_tax_not %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @order.status %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

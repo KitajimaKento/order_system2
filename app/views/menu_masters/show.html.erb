@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Menu id:</strong>
+  <%= @menu_master.menu_ID %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @menu_master.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @menu_master.price %>
+</p>
+
+<p>
+  <strong>Price tax not:</strong>
+  <%= @menu_master.price_tax_not %>
+</p>
+
+<%= link_to 'Edit', edit_menu_master_path(@menu_master) %> |
+<%= link_to 'Back', menu_masters_path %>

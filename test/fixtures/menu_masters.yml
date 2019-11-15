@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  menu_ID: 1
+  name: MyString
+  price: 1
+  price_tax_not: 1
+
+two:
+  menu_ID: 1
+  name: MyString
+  price: 1
+  price_tax_not: 1
